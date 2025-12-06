@@ -5,9 +5,7 @@ This repository contains a complete HIV Viral Load (VL) Cascade Analysis workflo
 
 This work demonstrates the intersection of public health expertise and modern data analytics, reflecting my ability to build data-driven solutions for HIV program monitoring and decision-making.
 
-🔗 LinkedIn Post Update: (insert link after publishing)
-https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/ (placeholder)
-
+🔗 LinkedIn Post Update: https://www.linkedin.com/posts/andrew-nwachimereze-okebugwu-mbbs-mph-phd-6b429617_datascience-publichealth-hivprograms
 ### 🎯 Objectives
 
 - Generate analysis-ready patient datasets.
@@ -105,14 +103,21 @@ plt.savefig("visuals/cascade_district.png", dpi=300)
 
 1️⃣ General VL Cascade
 
+<img width="888" height="527" alt="Screenshot 2025-12-06 121503" src="https://github.com/user-attachments/assets/f74e8b0a-83f3-46ad-8eba-8e5bd3188dbe" />
+
+
 
 2️⃣ Viral Load Cascade by Partner
+<img width="1119" height="458" alt="Screenshot 2025-12-06 121404" src="https://github.com/user-attachments/assets/8dfe4489-2b3a-4fc6-a986-0289c30e2ef9" />
 
 3️⃣ Viral Load Cascade by Age Bands
+<img width="1138" height="454" alt="Screenshot 2025-12-06 121443" src="https://github.com/user-attachments/assets/7b22d826-6a5e-4bb4-a177-61cd8657c7f3" />
 
 4️⃣ Viral Load Cascade by District
+<img width="1133" height="499" alt="Screenshot 2025-12-06 122854" src="https://github.com/user-attachments/assets/22823b02-7659-43bb-a59b-be773ee4ed98" />
 
-🔍 Key Findings (Synthetic Dataset)
+
+### 🔍 Key Findings (Synthetic Dataset)
 ⭐ General Cascade
 
 VL coverage and suppression are low and high respectively among tested clients.
@@ -131,9 +136,9 @@ District performance varies widely — clear opportunities for targeted supervis
 
 Mixed results among partners, demonstrating need for individualized technical support.
 
-🧠 Insights
+### 🧠 Insights
 
-The eligibility → valid VL testing gap is the most critical program barrier.
+The eligibility → valid VL testing (VL coverage) gap is the most critical program barrier.
 
 Suppression remains high once testing occurs, highlighting treatment success.
 
@@ -141,7 +146,7 @@ Strengthening VL sample collection workflows would significantly improve outcome
 
 Adolescents require tailored adherence and testing interventions.
 
-✔️ Recommendations
+### ✔️ Recommendations
 
 Implement automated VL eligibility reminders.
 
@@ -153,23 +158,17 @@ Increase focus on underperforming districts.
 
 Enforce data validation at the point of entry.
 
-🚀 Next Steps
+### 🚀 Next Steps
 
-Build an SQL + Python automated backend.
+- Build an SQL + Python automated backend.
 
-Create a live Power BI dashboard.
+- Create a live Power BI dashboard.
 
-Integrate ML models for non-suppression prediction.
+- Integrate ML models for non-suppression prediction.
 
-Add SMS notification logic for clients due for VL.
+- Add SMS notification logic for clients due for VL.
 
-👤 Author
+👤 Author: Andrew Nwachimere-eze Okebugwu – Public Health Physician • HIV Specialist • Health Data Scientist
 
-Andy – Public Health Physician • HIV Specialist • Health Data Scientist
+🔗 LinkedIn: https://www.linkedin.com/in/andrew-nwachimereze-okebugwu-mbbs-mph-phd-6b429617/
 
-🔗 LinkedIn Post Placeholder
-
-Paste your LinkedIn celebration post here once published:
-
-LinkedIn Post:
-https://www.linkedin.com/posts/YOUR-POST-LINK
