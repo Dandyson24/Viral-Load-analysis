@@ -14,11 +14,10 @@ This work demonstrates the intersection of public health expertise and modern da
 - Build combo visualizations:
   - Bars → TX_CURR, Eligible, Valid VL, Suppressed
   - Lines → VL Coverage %, VL Suppression %
-
-- Export clean PNG graphics for dashboards and reporting.
 - Produce insights to guide program optimization.
 
-
+### Data for analysis:
+https://docs.google.com/spreadsheets/d/1xy6Ry7BhzvC1kxhWSrfYvz2nsiw_KcSpwyBnmuRJQHA/edit?usp=sharing
 
 ### 🛠️ Tools & Technologies
 
