@@ -5,7 +5,8 @@ This repository contains a complete HIV Viral Load (VL) Cascade Analysis workflo
 
 This work demonstrates the intersection of public health expertise and modern data analytics, reflecting my ability to build data-driven solutions for HIV program monitoring and decision-making.
 
-🔗 LinkedIn Post Update: https://www.linkedin.com/posts/andrew-nwachimereze-okebugwu-mbbs-mph-phd-6b429617_datascience-publichealth-hivprograms
+🔗 LinkedIn Post Update: https://www.linkedin.com/posts/andrew-nwachimereze-okebugwu-mbbs-mph-phd-6b429617_datascience-publichealth-hivprograms-activity-7403030618965610496-_OfU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAANsTWgBIgGc3_UDSfNfwQH9Lji8-MnfyoQ
+
 ### 🎯 Objectives
 
 - Generate analysis-ready patient datasets.
