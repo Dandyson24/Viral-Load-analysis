@@ -126,21 +126,21 @@ plt.savefig("visuals/cascade_district.png", dpi=300)
 
 
 ### 🔍 Key Findings (Synthetic Dataset)
-⭐ General Cascade
+⭐ **General Cascade**
 
 VL coverage and suppression are low and high respectively among tested clients.
 
-⭐ Age Bands
+⭐ **Age Bands**
 
 Adolescents show lower test coverage.
 
 Children (<15 yrs) have fewer valid VL results.
 
-⭐ Districts
+⭐ **Districts**
 
 District performance varies widely — clear opportunities for targeted supervision.
 
-⭐ Partners
+⭐ **Partners**
 
 Mixed results among partners, demonstrating need for individualized technical support.
 
