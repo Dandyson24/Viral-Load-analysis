@@ -61,6 +61,7 @@ patient["Date_of_Viral_Load"] = pd.to_datetime(patient["Date_of_Viral_Load"])
 
 ####  2️⃣ Creating Age Groups
 
+```
 def assign_age_group(age):
     if age < 15:
         return "Child"
@@ -69,8 +70,10 @@ def assign_age_group(age):
     return "Adult"
 
 patient["Age_Group"] = patient["Current_Age"].apply(assign_age_group)
+```
 
 #### 3️⃣ Computing Cascade Indicators
+```
 tx_curr = patient[patient["CurrentStatus_28"] == "Active"]
 
 eligible = tx_curr[tx_curr["ART_start_date"].notna()]
@@ -81,16 +84,20 @@ valid_vl = eligible[
 ]
 
 suppressed = valid_vl[valid_vl["Viral_load"] < 1000]
+```
 
 #### 4️⃣ Generating Summary Tables
+```
 summary = pd.DataFrame({
     "TX_CURR": len(tx_curr),
     "Eligible": len(eligible),
     "Valid VL Results": len(valid_vl),
     "Suppressed": len(suppressed)
 })
+```
 
 #### 5️⃣ Visualization (Combo Chart Example)
+```
 fig, ax = plt.subplots(figsize=(10,6))
 
 ax.bar(plot_df[group_col], plot_df["TX_CURR"])
@@ -98,6 +105,7 @@ ax.plot(plot_df[group_col], plot_df["VL Coverage (%)"], marker="o")
 
 plt.title("VL Cascade by District")
 plt.savefig("visuals/cascade_district.png", dpi=300)
+```
 
 ### 📊 Charts & Visual Outputs
 
